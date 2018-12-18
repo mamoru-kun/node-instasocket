@@ -4,7 +4,7 @@ const config = require('./config')
 const getDifference = require('diff-array-objs')
 
 const server = new WebSocket.Server({
-  port: 3000,
+  port: config.PORT,
   verifyClient: info =>
     config.ALLOWED_ORIGINS === '*' || config.ALLOWED_ORIGINS.includes(info.origin)
 })
