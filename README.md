@@ -23,8 +23,7 @@ It gets posts from Instagram using your Instagram App's access token and request
 2. `heroku create [project-name]`
 3. `git push heroku master`
 4. Register the Instagram app and get its access token
-5. Add your access token in `.env` in `ACCESS_TOKEN` constant
-6. Go to Heroku dashboard and set the config vars `ACCESS_TOKEN` and `ALLOWED_ORIGINS` in the settings section. *(`COUNT`, `REFRESH_DELAY` and `PORT` are optional to specify)*
+5. Go to Heroku dashboard and set the config vars `ACCESS_TOKEN` and `ALLOWED_ORIGINS` in the settings section. *(`COUNT`, `REFRESH_DELAY` and `PORT` are optional to specify)*
 
 
 ## Configuration
