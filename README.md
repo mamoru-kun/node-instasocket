@@ -1,6 +1,6 @@
 # Node Instasocket
 
-This is the Node.js version of [this](https://github.com/mamoru-kun/instasocket) project. This one can be easily deployed at Heroku.
+This is the Node.js version of [this](https://github.com/mamoruuu/instasocket) project. This one can be easily deployed at Heroku.
 
 ## How it works
 It gets posts from Instagram using your Instagram App's access token and requests them again and again every 10 seconds (you can change it in `.env`). If there's changes in posts collection the server sends it to all of the connected clients (your website visitors).
